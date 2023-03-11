@@ -1,0 +1,115 @@
+;; **** Variables ******************************************
+(include "variables.yuck")
+
+
+;; **** Widgets ********************************************
+
+;; Quotes
+(include "sidebar/quotes.yuck")
+
+;; Weather
+(include "sidebar/weather.yuck")
+
+;; Music
+(include "sidebar/music0.yuck")
+
+
+;; Memory
+(include "sidebar/memory.yuck")
+
+;; Battery
+;;(include "sidebar/battery.yuck")
+
+;; Date
+(include "sidebar/date.yuck")
+
+;; Updates
+;;(include "sidebar/pacman_updates.yuck")
+
+;; Profile
+(include "sidebar/profile.yuck")
+
+;; Disk/Storage
+(include "sidebar/disk.yuck")
+
+;; System stuffs
+;;(include "sidebar/system.yuck")
+
+;; *********************************************************
+
+
+;; **** Sidebar ********************************************
+
+(defwidget sidebar []
+
+	(box :class "container"
+		 :orientation "v"
+		 :space-evenly false
+
+		;(box :orientation "h"
+		;	 :height 100
+		;	(profile)
+		;)
+
+		(box :orientation "h"
+			 :space-evenly true
+			(box :width 170
+				 :height 0
+				 :orientation "v"
+				 :space-evenly false
+				(box :height 200
+			 		(weather))
+
+			)
+
+			(box :width 170
+				 :height 0
+				 :orientation "v"
+				 :space-evenly false
+				(box :height 40
+					(date))
+				(box :height 160
+					(memory))
+			)
+		)
+
+        (box :orientation "v"
+         	;;(system)
+         )
+
+		(box :orientation "v"
+		(box :width 0
+			:height 0
+			:orientation "v"
+			:space-evenly true
+		   (box :height 90
+				(music))
+
+	   )
+         )
+		 (box :orientation "v"
+		(box :width 0
+			:height 100
+			:orientation "v"
+			:space-evenly true
+		   (box :height 100
+				(quotes))
+
+	   )
+         )
+	)
+)
+
+;; **** Sidebar Window ************************************
+
+(defwindow sidebar :stacking "fg"
+				  :focusable "false"
+				  :screen 1
+				  :windowtype "dock"
+	    		  :geometry (geometry   :x 0
+	    								:y 0
+	    								:anchor "center right")
+					(sidebar)
+)
+
+;; *********************************************************

@@ -1,0 +1,14 @@
+# Fonts
+ Ubuntu Mono
+    Ubuntu Mono Bold
+    Ubuntu Mono Bold Italic
+    Ubuntu Mono Italic
+
+
+background_opacity 0.45
+
+
+# Tabs
+tab_bar_edge bottom
+tab_bar_style powerline 
+tab_powerline_style angled 

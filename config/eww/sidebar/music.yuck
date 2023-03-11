@@ -1,0 +1,21 @@
+
+; music
+(defpoll track :interval "2s" "/home/incognitux/.config/eww/scripts/music --track")
+(defpoll player :interval "2s" "/home/incognitux/.config/eww/scripts/music --player")
+
+; music
+(defwidget music_buttons[]
+	(box :class "music-box" :orientation "v"
+	  (box :class "music-info" :orientation "v"
+		(label :text player :class "m1")
+		(label :text track :limit-width 150 :class "m2" :height 10)
+	  )
+	  (box :class "media-ctrls" :orientation "h"
+		(button :class "prev" :onclick "/home/incognitux/.config/eww/scripts/music --prev" "玲")
+		(button :class "play-pause" :onclick "/home/incognitux/.config/eww/scripts/music --play-pause" "")
+		(button :class "next" :onclick "/home/incognitux/.config/eww/scripts/music --next" "怜")
+		
+	  )
+	)
+  )
+  

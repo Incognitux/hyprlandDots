@@ -1,0 +1,310 @@
+/** Color variables ***********************************/
+
+/** Everblush
+$background: #141b1e;
+$background-alt: #181f21;
+$background-alt-light: #232a2d;
+$foreground: #dadada;
+$accent: #6cbfbf;
+
+$red: #e57474;
+$blue: #67b0e8;
+$green: #8ccf7e;
+$yellow: #e5c76b;
+**/
+
+/** Catppuccin ****/
+$background: #11111b;
+$background-alt: #181825;
+$background-alt-light: #1e1e2e;
+$foreground: #cdd6f4;
+$accent: #eba0ac;
+
+$red: #f38ba8;
+$blue: #89b4fa;
+$green: #a6e3a1;
+$yellow: #f9e2af;
+
+/** Global *******************************************/
+
+* {
+	all: unset;
+}
+
+scale trough {
+    background-color: $background-alt-light;
+    border-radius: 15px;
+    min-height: 4px;
+    min-width: 16em;
+}
+trough highlight {
+	border-radius: 15px;
+}
+
+.description {
+	font-family: Aesthetic Iosevka Original Bold;
+	font-size: 18;
+	margin-top: -2px;
+}
+
+.title {
+	font-family: Aesthetic Iosevka Original Bold;
+	font-size: 14;
+}
+
+
+/** Generic window ***********************************/
+
+.genwin {
+	background-color: $background;
+	color: $foreground;
+	margin: 3px;
+	padding: 5px 10px;
+	border-radius: 15px;
+	font-family: Aesthetic Iosevka Original Bold;
+	font-size: 12;
+
+}
+
+
+/** Container widget *********************************/
+
+.container {
+	background-color: $background-alt;
+	padding: 10px;
+	border-radius: 10px 0px 0px 10px;
+}
+
+
+/** Profile ******************************************/
+.profile {
+	background-color: $background-alt;
+}
+
+.username {
+	font-size: 18px;
+	color: #ececec;
+}
+
+.profile .extra-info {
+	font-size: 14px;
+}
+
+.profile-picture {
+	background-image: url('images/avatar.svg');
+	background-size: cover;
+	border-radius: 3%;
+}
+
+
+/** Battery and RAM circular widget ******************/
+
+.res-circle {
+	background-color: $background-alt-light;
+	border-radius: 100%;
+}
+
+.res-circle-small {
+	padding: 25px;
+	background-color: $background;
+	font-family: "feather";
+	font-size: 20px;
+}
+
+.res-mem {
+	color: $blue;
+}
+
+.res-bat {
+	color: $green;
+}
+
+.res-swap {
+	background-color: $background;
+}
+
+
+/** Weather ******************************************/
+
+.weathicon {
+	font-family: "JetBrainsMono Nerd Font";
+	font-size: 48px;
+	margin-top: 10px;
+	margin-right: 0px;
+	color: $yellow;
+}
+
+.weather .title {
+	font-size: 20px;
+}
+
+.weather .description {
+	font-size: 28px;
+	margin-top: 26px;
+}
+
+.location {
+	font-size: 20px;
+	font-family: Roboto Condensed, "feather";
+}
+
+.reload {
+	font-family: "feather"
+}
+
+
+/** Directories ***************************************/
+
+.dirs {
+	font-size: 16px;
+	padding: 10px 5px;
+	font-family: Roboto Condensed, "feather"
+}
+
+.dirs button {
+	transition: 0.1s;
+	border-radius: 3px;
+	padding: 4px 9px;
+}
+
+.dirs button:hover, .reload:hover {
+	background-color: $background-alt-light;
+}
+.dirs button:active, .reload:active {
+	background-color: $accent;
+}
+
+.disk-usage-box {
+	background-color: rgba(255,255,255,0.07);
+	border-radius: 3px;
+	padding: 20px;
+	margin: 13px;
+	font-size: 18px;
+	font-family: Roboto Condensed, "feather";
+}
+.disk-usage-icon {
+	font-size: 24px;
+}
+
+
+/** System *****************************************/
+
+.system {
+	padding: 20px;
+}
+
+.volume-icon,
+.brightness-icon,
+.mic-icon {
+	font-size: 20px;
+	font-family: "feather";
+}
+
+.volume-icon {
+	color: $green;
+}
+.volbar trough highlight {
+	background-color: $green;
+}
+        
+.brightness-icon {
+	color: $yellow;
+}
+.bribar trough highlight {
+	background-color: $yellow;
+}
+
+.mic-icon {
+    color: $blue;
+}
+.micbar trough highlight {
+	background-color: $blue;
+}
+
+/** Quotes ****************************************/
+.quote{
+	background-color: $background;
+	border-radius: 10px;
+	padding: 0rem;
+	margin: 0.5rem;
+}
+.quote-text{
+	font-family: Comic Mono;
+	padding: 1.5rem 1rem 0rem 1rem;
+	font-size: 1.1em;
+	color: $foreground;
+}
+.quote-author{
+	font-family: Caveat;
+	font-style: normal;
+	font-size: 1.7em;
+	color: $foreground;
+	margin-top: 0rem;
+	margin: 1rem
+}
+
+
+/** Music *****************************************/
+.music-player{
+	background-color: $background;
+	padding: 0rem 1.5rem 1rem 1.5rem;
+	border-radius: 10px;
+	margin: .5rem;
+}
+.album_art {
+	background-size: cover;
+	background-position: center;
+	border-radius: 3px;
+	margin: 1rem 5.7rem 0.5rem 6rem;
+	padding: 5rem;
+}
+
+.artist {
+	font-family: Cartograph CF;
+	font-style: normal;
+	font-weight: bold;
+	color: $foreground;
+	font-size : 1em;
+}
+.song{
+	font-family: Cartograph CF;
+	font-style: normal;
+	font-size: 1.1em;
+	color: $foreground;
+	margin-top: 2px;
+}
+.btn_prev, .btn_play, .btn_next {
+	font-family: JetBrainsMono Nerd Font;
+}
+.btn_prev {
+	color: $foreground;
+	font-size : 2em;
+}
+.btn_play {
+	color: $foreground;
+	font-size : 2em;
+	font-weight : bold;
+}
+.btn_next {
+	color: $foreground;
+	font-size : 2em;
+}
+.metric-player  scale trough highlight {
+	all: unset;
+	border-radius: 2px;
+	background-color: $foreground;
+}
+  
+.metric-player scale trough  {
+	all: unset;
+	background-color: $background;
+	border: 1px solid $foreground;
+	border-radius: 3px;
+  }
+  
+.metric-player scale trough  {
+	margin-left: 1rem;
+	margin-top: 10px;
+	min-width: 260px;
+	min-height: 10px;
+}

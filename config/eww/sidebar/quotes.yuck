@@ -1,0 +1,23 @@
+
+;; Quotes Widgets
+(defwidget quotes [] 
+	(box 	:class "quote" 
+		 	:orientation "h" 
+			:halign "center"
+		 	:spacing 0 
+		 	:space-evenly "false"
+			:height 100
+	(box 	:orientation "v" 
+		 	:spacing 0 
+		 	:space-evenly "false" 
+	(label 	:class "quote-text" 
+			:halign "center" 
+			:wrap "true"
+			:text "\"${quote_text}\"")
+	(label 	:class "quote-author" 
+			:halign "center" 
+			:wrap "true"
+			:text quote_author)
+		)
+	)
+)

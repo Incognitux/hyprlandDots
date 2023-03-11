@@ -1,0 +1,4 @@
+#!/bin/sh
+# I know this sucks and perhaps I don't have any better idea
+sh ~/.config/eww/scripts/weather & eww reload
+sh ~/.config/eww/scripts/quotes update

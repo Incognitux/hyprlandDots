@@ -1,0 +1,127 @@
+sw_volume: 100
+audio_device_state:1:PipeWire Sound Server
+audio_device_state:1:Visualizer
+audio_device_state:1:lossless
+state: pause
+current: 8
+time: 113.639000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:SpotDL/Games/Stephen Barton - Apex Legends -  Main Theme.mp3
+1:SpotDL/Games/Slimek - CSGO Theme.mp3
+2:SpotDL/Games/Keyson - Detroit Become Human Hopeful.mp3
+3:SpotDL/Games/Megadriver - Shou Ken (Ken Theme)(Street Fighter 2).mp3
+4:SpotDL/Games/Jukio Kallio, Daniel Hagström - Everybody Falls (Fall Guys Theme).mp3
+5:SpotDL/Games/Valve Studio Orchestra - Soldier of Dance.mp3
+6:SpotDL/Games/Valve Studio Orchestra - Team Fortress 2.mp3
+7:SpotDL/Games/Samuel Kim - Halo Theme - Epic Version.mp3
+8:SpotDL/Games/Halfbrick - Jetpack Joyride Main Theme.mp3
+9:SpotDL/Games/Context Sensitive - Karlson Vibe (Milkman Karlson Theme) [Original Game Soundtrack].mp3
+10:SpotDL/Games/Hyper - Spoiler - Original Mix.mp3
+11:SpotDL/Games/C418 - Mice On Venus.mp3
+12:SpotDL/Games/Lena Raine - Pigstep - Stereo Mix.mp3
+13:SpotDL/Games/Aperture Science Psychoacoustic Laboratories - Still Alive.mp3
+14:SpotDL/Games/Neo Nomen - RE - RUN (Original Game Soundtrack).mp3
+15:SpotDL/Games/Cloudjumper - Sweden.mp3
+16:SpotDL/Games/Exyl - Terraria.mp3
+17:SpotDL/Games/Toby Fox - Heartache.mp3
+18:SpotDL/Games/Toby Fox - MEGALOVANIA.mp3
+19:SpotDL/Games/VGR - Wii Sports Resort.mp3
+20:SpotDL/Games/Terraria/1-01 Overworld Day.mp3
+21:SpotDL/Games/Terraria/1-02 Eerie.mp3
+22:SpotDL/Games/Terraria/1-03 Overworld Night.mp3
+23:SpotDL/Games/Terraria/1-04 Title Screen.mp3
+24:SpotDL/Games/Terraria/1-05 Underground.mp3
+25:SpotDL/Games/Terraria/1-06 Boss 1.mp3
+26:SpotDL/Games/Terraria/1-07 Jungle.mp3
+27:SpotDL/Games/Terraria/1-08 Corruption.mp3
+28:SpotDL/Games/Terraria/1-09 Underground Corruption.mp3
+29:SpotDL/Games/Terraria/1-10 The Hallow.mp3
+30:SpotDL/Games/Terraria/1-11 Boss 2.mp3
+31:SpotDL/Games/Terraria/1-12 Underground Hallow.mp3
+32:SpotDL/Games/Terraria/1-13 Boss 3.mp3
+33:SpotDL/Games/Terraria/2-01 Ocean.mp3
+34:SpotDL/Games/Terraria/2-02 Eclipse.mp3
+35:SpotDL/Games/Terraria/2-03 Rain.mp3
+36:SpotDL/Games/Terraria/2-04 Alternate Day.mp3
+37:SpotDL/Games/Terraria/2-05 Space.mp3
+38:SpotDL/Games/Terraria/2-06 Golem.mp3
+39:SpotDL/Games/Terraria/2-07 Mushrooms.mp3
+40:SpotDL/Games/Terraria/2-08 Crimson.mp3
+41:SpotDL/Games/Terraria/2-09 Lihzahrd.mp3
+42:SpotDL/Games/Terraria/2-10 Ice.mp3
+43:SpotDL/Games/Terraria/2-11 Plantera.mp3
+44:SpotDL/Games/Terraria/2-12 Dungeon.mp3
+45:SpotDL/Games/Terraria/2-13 Lunar Boss.mp3
+46:SpotDL/Games/Terraria/3-01 Alternate Underground.mp3
+47:SpotDL/Games/Terraria/3-02 Underground Crimson.mp3
+48:SpotDL/Games/Terraria/3-03 Goblin Army.mp3
+49:SpotDL/Games/Terraria/3-04 Underworld.mp3
+50:SpotDL/Games/Terraria/3-05 Pirate Invasion.mp3
+51:SpotDL/Games/Terraria/3-06 Pumpkin Moon.mp3
+52:SpotDL/Games/Terraria/3-07 Frost Moon.mp3
+53:SpotDL/Games/Terraria/3-08 Martian Madness.mp3
+54:SpotDL/Games/Terraria/3-09 Lunar Towers.mp3
+55:SpotDL/Games/Terraria/3-10 Moon Lord.mp3
+56:SpotDL/Games/Terraria/4-01 The Journey Begins.mp3
+57:SpotDL/Games/Terraria/4-02 Underground Ice.mp3
+58:SpotDL/Games/Terraria/4-03 Space Day.mp3
+59:SpotDL/Games/Terraria/4-04 Empress of Light.mp3
+60:SpotDL/Games/Terraria/4-05 Queen Slime.mp3
+61:SpotDL/Games/Terraria/4-06 Slime Rain.mp3
+62:SpotDL/Games/Terraria/4-07 Desert.mp3
+63:SpotDL/Games/Terraria/4-08 Underground Desert.mp3
+64:SpotDL/Games/Terraria/4-09 Sandstorm.mp3
+65:SpotDL/Games/Terraria/4-10 Old One's Army.mp3
+66:SpotDL/Games/Terraria/4-11 Underground Jungle.mp3
+67:SpotDL/Games/Terraria/4-12 Jungle Night.mp3
+68:SpotDL/Games/Terraria/4-13 Queen Bee.mp3
+69:SpotDL/Games/Terraria/4-14 Graveyard.mp3
+70:SpotDL/Games/Terraria/4-15 Town Day.mp3
+71:SpotDL/Games/Terraria/4-16 High Wind.mp3
+72:SpotDL/Games/Terraria/4-17 Storm.mp3
+73:SpotDL/Games/Terraria/4-18 Duke Fishron.mp3
+74:SpotDL/Games/Terraria/4-19 Morning Rain.mp3
+75:SpotDL/Games/Terraria/4-20 Ocean Night.mp3
+76:SpotDL/Games/Terraria/4-21 Town Night.mp3
+77:SpotDL/Games/Terraria/4-22 Alt Title.mp3
+78:SpotDL/Games/Terraria/4-23 Journey's End - Credits.mp3
+79:SpotDL/Games/Terraria/4-24 Terraria Day Theme Remix.mp3
+80:SpotDL/Games/Doom/Mick Gordon - I. Dogma.mp3
+81:SpotDL/Games/Doom/Mick Gordon - Rip & Tear.mp3
+82:SpotDL/Games/Doom/Mick Gordon - At Doom's Gate.mp3
+83:SpotDL/Games/Doom/Mick Gordon - Rust, Dust & Guts.mp3
+84:SpotDL/Games/Doom/Mick Gordon - II. Demigod.mp3
+85:SpotDL/Games/Doom/Mick Gordon - Hellwalker.mp3
+86:SpotDL/Games/Doom/Mick Gordon - Authorization; Olivia Pierce.mp3
+87:SpotDL/Games/Doom/Mick Gordon - Flesh & Metal.mp3
+88:SpotDL/Games/Doom/Mick Gordon - Impure Spectrum.mp3
+89:SpotDL/Games/Doom/Mick Gordon - Ties That Bind.mp3
+90:SpotDL/Games/Doom/Mick Gordon - Bfg Division.mp3
+91:SpotDL/Games/Doom/Mick Gordon - Residual.mp3
+92:SpotDL/Games/Doom/Mick Gordon - Argent Energy.mp3
+93:SpotDL/Games/Doom/Mick Gordon - Harbinger.mp3
+94:SpotDL/Games/Doom/Mick Gordon - Biowaves.mp3
+95:SpotDL/Games/Doom/Mick Gordon, Chad Mossholder - Olivia's Doom (Chad Mossholder Remix).mp3
+96:SpotDL/Games/Doom/Mick Gordon - Transistor Fist.mp3
+97:SpotDL/Games/Doom/Mick Gordon - Dr. Samuel Hayden.mp3
+98:SpotDL/Games/Doom/Mick Gordon - Cyberdemon.mp3
+99:SpotDL/Games/Doom/Mick Gordon - Incantation.mp3
+100:SpotDL/Games/Doom/Mick Gordon - Damnation.mp3
+101:SpotDL/Games/Doom/Mick Gordon - The Stench.mp3
+102:SpotDL/Games/Doom/Mick Gordon - Uac Report File; Shto36u3.mp3
+103:SpotDL/Games/Doom/Mick Gordon - Death & Exhale.mp3
+104:SpotDL/Games/Doom/Mick Gordon - SkullHacker.mp3
+105:SpotDL/Games/Doom/Mick Gordon - Lazarus Waves.mp3
+106:SpotDL/Games/Doom/Mick Gordon - Vega Core.mp3
+107:SpotDL/Games/Doom/Mick Gordon, Chris Hite - 6_idkill.Vega.Cih.mp3
+108:SpotDL/Games/Doom/Mick Gordon - Mastermind.mp3
+109:SpotDL/Games/Doom/Mick Gordon - IV. Doom.mp3
+110:SpotDL/Games/Doom/Mick_Gordon_-_Everything_Is_Going_to_Be_Okay.mp3
+playlist_end

@@ -1,0 +1,26 @@
+(defwidget memory [] 
+	(box :class "genwin"
+		 :space-evenly "true"
+
+		(box :orientation "v"
+			 :space-evenly "false"
+			 :valign "center"
+			 :halign "center"
+			 :spacing 20
+		
+		(label  :text "Memory Usage: ${MEM_USAGE}B"
+				:class "title")
+
+			(box :class "res-circle"
+			 	 :valign "center"
+			 	 :halign "center"
+				(circular-progress  :class "res-mem"
+									:value MEM_USAGE_PERC
+									:thickness 10
+					(label  :class "res-circle-small"
+							:text "")
+				)
+			)
+		)
+	)
+)
