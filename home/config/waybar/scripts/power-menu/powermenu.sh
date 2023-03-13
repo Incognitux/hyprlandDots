@@ -19,7 +19,7 @@ no='תּ No'
 
 # Rofi CMD
 rofi_cmd() {
-	rofi -dmenu \
+	rofi -dmenu -x11 -hover-select -me-select-entry '' -me-accept-entry MousePrimary \
 		-p "$host" \
 		-mesg "Uptime: $uptime" \
 		-theme ${dir}/${theme}.rasi
@@ -27,12 +27,12 @@ rofi_cmd() {
 
 # Confirmation CMD
 confirm_cmd() {
-	rofi -theme-str 'window {location: center; anchor: center; fullscreen: false; width: 250px;}' \
+	rofi -theme-str 'window {fullscreen: false; width: 200px;}' \
 		-theme-str 'mainbox {children: [ "message", "listview" ];}' \
 		-theme-str 'listview {columns: 2; lines: 1;}' \
 		-theme-str 'element-text {horizontal-align: 0.5;}' \
 		-theme-str 'textbox {horizontal-align: 0.5;}' \
-		-dmenu \
+		-dmenu -x11 -hover-select -me-select-entry '' -me-accept-entry MousePrimary \
 		-p 'Confirmation' \
 		-mesg 'Are you Sure?' \
 		-theme ${dir}/${theme}.rasi
@@ -88,13 +88,7 @@ case ${chosen} in
 		run_cmd --reboot
         ;;
     $lock)
-		if [[ -x '/usr/bin/betterlockscreen' ]]; then
-			betterlockscreen -l
-		#elif [[ -x '/usr/bin/i3lock' ]]; then
-			#i3lock
-		elif [[ -x '/usr/bin/Hyprland' ]]; then
-		  	swaylock
-		fi
+		  	swaylock --fade-in 1
         ;;
     $suspend)
 		run_cmd --suspend

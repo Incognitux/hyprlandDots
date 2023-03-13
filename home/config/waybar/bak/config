@@ -31,9 +31,13 @@
         "format": "{icon}",
         "format-icons": {
             "1": "󰺕",
+            "2": "󰺕",
+            "3": "󰺕",
+            "4": "󰺕",
+            "5": "󰺕",
             "urgent": "",
             "active": "󰪥",
-            "default": "󰺕"
+            "default": ""
           }
     },
     "hyprland/window": {
@@ -144,7 +148,7 @@
         "format-warning": "{icon} {capacity}%",
         "format-critical": "{icon} {capacity}%",
         "format-charging": "<span font-family='Font Awesome 6 Free'></span> {capacity}%",
-        "format-plugged": "  {icon} {capacity}%",
+        "format-plugged": "  {capacity}%",
         "format-alt": "{icon} {time}",
         "format-full": "  {capacity}%",
         "format-icons": [
