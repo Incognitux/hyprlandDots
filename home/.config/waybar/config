@@ -1,8 +1,8 @@
 {
     "height": 30,
-    "margin-top": 4,
+    "margin-top": 0,
     "margin-left": 4,
-    "margin-bottom": 2,
+    "margin-bottom": 3,
     "margin-right": 4,
     "spacing": 0,
     "modules-left": [
@@ -40,7 +40,7 @@
 	"icon": true,
         "format": "{}",
         "separate-outputs": true,
-        "max-length": 40
+        "max-length": 52
     },
     "tray": {
         "spacing": 7
@@ -48,7 +48,7 @@
     "clock": {
         "interval": 1,
         "format": "<span color='#f38ba8'>󰅐 </span>{:%R:%S}",
-        "format-alt": "<span color='#f38ba8'>󰃭  </span>{:%a, %b %d, %Y}",
+        "format-alt": "<span color='#f38ba8'>󰃭 </span>{:%a, %b %d, %Y}",
         "tooltip-format": "\n<span size='11pt' font='JetBrains Mono'>{calendar}</span>",
 
         "calendar": {
@@ -120,7 +120,6 @@
             "portable": "",
             "car": "",
             "default": [
-                "󰕿",
                 "󰖀",
                 "󰕾"
             ]

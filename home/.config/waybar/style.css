@@ -1,16 +1,16 @@
 * {
   /* `otf-font-awesome` is required to be installed for icons */
-  font-family: Play;
+  font-family: AestheticIosevka Nerd Font Mono;
   font-size: 15px;
 }
 
 window#waybar {
-  background-color: rgba(17, 17, 27, 0);
+  background-color: rgba(24, 24, 37, 1);
   color: #ffffff;
   transition-property: background-color;
   transition-duration: 0.5s;
   border-top: 8px transparent;
-  border-radius: 8px;
+  border-radius: 0px 0px 10px 10px;
   transition-duration: 0.5s;
   margin: 16px 16px;
 }
@@ -18,7 +18,6 @@ window#waybar {
 window#waybar.hidden {
   opacity: 0.2;
 }
-
 
 #workspaces button {
   padding: 0 5px;
@@ -33,32 +32,44 @@ window#waybar.hidden {
 #workspaces button.active {
   background-color: #64727D;
   box-shadow: inset 0 -3px #f5e0dc;
+  border-radius: 0px 0px 5px 5px;
 }
 
 #workspaces button.urgent {
   background-color: #eb4d4b;
 }
 
+#workspaces {
+  margin: 0 10px 4px 10px;
+  border-radius: 0px 0px 8px 8px;
+  background-color: #1f2530;
+}
+
 #custom-dunst,
 #custom-notification,
 #idle_inhibitor,
 #temperature{
-  padding: 0 8px;
+  padding: 0px 8px;
   background-color: #1f2530;
+  margin: 0px 0px 4px 0px;
 }
 
 #idle_inhibitor {
   color:#f5e0dc
 }
 
+#idle_inhibitor:hover {
+  background: rgba(17, 17, 27, 0.5);
+}
+
 #idle_inhibitor.activated {
   background-color: #f5e0dc;
-  color: #1f2530;
+  color: #11111b;
 }
 
 #custom-dunst{
   color: #fab387;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 0px 0px 0px 10px;
 }
 
 #custom-notification{
@@ -67,20 +78,26 @@ window#waybar.hidden {
 }
 
 #temperature {
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 0px 10px 0px;
   color: #f38ba8
 }
 
+#tray,
 #backlight,
 #network,
 #pulseaudio{
   padding: 0 8px;
   background-color: #1f2530;
+  margin: 0px 0px 4px 0px;
+}
+
+#tray {
+	border-radius: 0px 0px 10px 10px;
 }
 
 #network {
   color: #b4befe;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 0px 10px 0px;
   margin-right: 10px;
 }
 
@@ -93,7 +110,7 @@ window#waybar.hidden {
 
 #backlight {
   color: #f9e2af;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 0px 0px 0px 10px;
   margin-left: 10px;
 }
 
@@ -103,7 +120,6 @@ window#waybar.hidden {
 #memory,
 #disk,
 #custom-media,
-#tray,
 #mode,
 #mpd,
 #bluetooth,
@@ -123,14 +139,8 @@ window#waybar.hidden {
 #custom-weather.default {
   padding: 0 10px;
   color: #e5e5e5;
-  /* color: #bf616a; */
-  border-radius: 9.5px;
-  background-color: #1f2530;
-}
-
-#workspaces {
-  margin: 0 10px;
-  border-radius: 10px;
+  border-radius: 0px 0px 10px 10px;
+  margin-bottom: 4px;
   background-color: #1f2530;
 }
 
@@ -141,10 +151,10 @@ window#waybar.hidden {
 
 #custom-power-menu {
   background-color: #1b242b;
-  border-radius: 7.5px;
+  border-radius: 10px 0px 10px 0px;
   padding: 0 0px;
   min-width: 30px;
-  margin-left: 10px;
+  margin: 0px 0px 0px 10px;
 }
 
 #custom-launcher {
@@ -152,7 +162,7 @@ window#waybar.hidden {
   min-width: 30px;
   background-color: #1b242b;
   color: #6a92d7;
-  border-radius: 7.5px;
+  border-radius: 0px 10px 0px 10px;
   padding: 0 0px;
 }
 
@@ -260,10 +270,6 @@ label:focus {
   background-color: #ffa000;
 }
 
-#temperature {
-  background-color: #1f2530;
-}
-
 #temperature.critical {
   background-color: #eb4d4b;
 }
@@ -334,9 +340,10 @@ label:focus {
   background: rgba(0, 0, 0, 0.2);
 }
 #window {
-  border-radius: 30px;
+  border-radius: 0px 0px 10px 10px;
   padding-left: 10px;
   padding-right: 10px;
+  margin-bottom: 5px;
   background-color: #1f2530;
   color: #F6E0D1;
 }
